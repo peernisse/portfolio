@@ -1,0 +1,70 @@
+---
+title: "Select Projects"
+output: 
+        html_document:
+          #code_folding: show
+          toc: true
+          toc_float: 
+                collapsed: false
+                smooth_scroll: true
+                toc_depth: 1
+          number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<hr/>
+
+# Active Mining/Baseline Characterization
+
+**Data Analyst, Mine Expansion Baseline Characterization, Confidential Client, Manitoba, CA**
+
+Automated water quality data compilation and cleanup, comparison of results to federal and provincial water quality guidelines, and various report visualizations including box plots, time series graphs, pie charts, histograms, etc.
+
+**Data Analyst, APP Quarterly Groundwater Monitoring, Confidential Client, Arizona**
+
+Performs data organization, database management, statistical analysis, and reporting of quarterly groundwater monitoring data in support of permit requirements. Developed a relational database system for data storage, validation and generation of automated summary tables for quarterly reports. Performed statistical analyses in accordance with the EPA Unified Guidance and state requirements on monitoring results including tests of distribution, outlier testing, trend testing, seasonal effects, detection monitoring and exceedance testing for comparison to aquifer quality limits (AQLs) and alert levels (ALs) for APP compliance.
+
+**Task Manager/Scientist, Baseline Surface Water Characterization, Confidential Client, Fairbanks, Alaska**
+
+Implemented surface water and natural resources investigation for a proposed gold mine expansion in support of Alaska state surface water discharge permits. Duties included field work planning/SAPP/QAPP, health and safety, GIS mapping, erecting surface water monitoring stations, hydrology studies, water quality statistical analysis and development of monitoring action levels, and database development and maintenance.
+
+<hr/>
+# Mining Reclamation
+
+**Data Manager/Scientist, CERCLA Remedial Baseline Water Quality Monitoring, Chelan, Washington, 2011-2015**
+
+Implemented and managed CERCLA pre-reclamation and remedial action-phase sampling and characterization program for groundwater quality, surface water quality, groundwater/surface water interface, and riparian conditions at a former copper mine site. Duties included project task management, implementing/performing field studies, GIS and relational database management, statistical data analysis and reporting.
+
+**Data Manager/Statistical Analyst, Abandoned Uranium Mines, Confidential Client, New Mexico**
+
+Managed Oracle SQL relational project database for field data acquisition, laboratory analytical results, GPS acquired data, QA/QC, and reporting tools for a large CERCLA cleanup project involving 16 abandoned uranium mines. Programmed and maintained project-specific GPS units for field data acquisition. Performed statistical analysis and visualizations for project data using EPA software ProUCL and R programming applications to automate reporting.  
+
+<hr/>
+# Non-Mining CERCLA Data Analysis
+
+**Data Analyst, CERCLA Groundwater Long Term Monitoring, Confidential Client, Utah**
+
+Performed database/data management and semi-annual statistical analysis of chlorinated solvent plumes undergoing monitored natural attenuation (MNA). Statistical methods used in accordance with the EPA Unified Guidance include outlier testing, data distribution tests, trend testing, seasonal effects, control charts, confidence intervals, upper limits, hypothesis testing and reporting in support of MNA.
+
+**Project Manager/Scientist, CERCLA Groundwater Contaminant Plumes, Utah, 2005-2012** 
+
+Authored and implemented EPA Performance Standards Verification Plans (PSVPs) for seven CERCLA Superfund Operable Units with soil and groundwater contaminated with chlorinated solvents.  His duties included project management, human health risk evaluation, remedial investigation, CERCLA documents, implementing/performing subsurface field studies, statistical analyses of contaminant data, technical presentations, and reporting.
+
+<hr/>
+# Project Management
+
+**Project Manager - Utah Army National Guard, Environmental Resources Management (ERM) (2008-Present)**
+
+Implemented and maintain an ERM program-wide GIS and program data management solution based in MS SharePoint. The tool supports Utah Army National Guard environmental programs, asset management, drinking water protection, and environmental operations.
+
+**Project Manager/Scientist, Operable Unit 4 Groundwater Remediation, Hill Air Force Base, Utah**
+
+Conducted data management and interpretation of environmental groundwater, soil, and soil gas data in support of ongoing investigation/ characterization of TCE-contaminated soil and groundwater. Tasks included groundwater monitoring well installation, data management, groundwater treatment system performance monitoring, long-term performance monitoring, presentations and technical reports.
+
+
+
+
+
