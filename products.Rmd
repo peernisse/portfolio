@@ -25,7 +25,6 @@ options(scipen = 6)
 <hr/>
 Below are some examples of the tools I use on projects for data analysis, visualization, and making repetitive or tedious tasks more efficient.
 
-**Disclaimer: ** *I built all the items shown on this page with exception of the Power BI interface for the SME Search Tool. I did build the SME dataset, but someone else made the cool dashboard in Power BI. I also extend recognition to my mentors within the company over the years.*
 
 # Data Tables
 Automate report results tables and formatting.
@@ -204,7 +203,7 @@ fig
 # Automated Reporting
 Template reports, including boilerplate text, tables and graphs. The report is generated from a data source, so periodic reporting such as monthly reports are updated each month with the new data. Inline text and calculations also can be programmed to change with the data.
 
-Can be output to Word (static) or HTML (interactive) with Stantec formatting already applied.
+Can be output to Word (static) or HTML (interactive) with formatting already applied.
 
 <img src="./img/doc1.jpg"></img>
 
@@ -212,16 +211,14 @@ Can be output to Word (static) or HTML (interactive) with Stantec formatting alr
 
 # SharePoint Customization
 SharePoint O365 and Groups sites have great out of the box customization features.
-The Environmental Services SME Search Tool is a good example. The data are in SharePoint and viewed via an interactive Power BI Report. I set up the SME dataset, but did not do the Power BI dashboard on this one.
+It is also possible to integrate PowerBI reports and dashboards into SharePoint sites.
 
-[ES SME Tool](https://stantec.sharepoint.com/sites/EnvironmentalServices/SitePages/Subject-Matter-Experts-Search-Tool.aspx)
+<img src="./img/dash.jpg"></img>
 
-
-
-# Internal Web Applications with Shiny
+# Web Applications with Shiny
 Try my, still in progress, R Shiny App for exploring datasets. Follow the link, hit the "Load Demo Data" button, pick a few locations and analytes from the left side, and explore the demo data.
 
-[My Demo Water Quality Exporer App](https://peernisse.shinyapps.io/wqdashboard/)
+[My Demo Data Explorer App](https://peernisse.shinyapps.io/wqdashboard/)
 <hr/>
 
 

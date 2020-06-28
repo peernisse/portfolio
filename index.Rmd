@@ -9,7 +9,7 @@
   
   </div>
 </div>
-Hello! This is a static website I placed on our Stantec internal public server (*P: drive*) to show some of my project experience, products, and skills. Only Stantec staff can access this site. 
+Hello! This is a resume and portfolio website I maintain to show some of my project experience, products, and skills. 
 
 ### Summary
 I am a supervising environmental scientist and project manager in the Stantec Salt Lake City, Utah office with 19 years of experience in environmental investigation and assessment, RCRA, CERCLA, project management, long-term monitoring, environmental database design and management, statistical data analysis, geographic information systems (GIS), and data science. I am accomplished in implementing and managing programs for baseline characterization, detection monitoring, compliance monitoring, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species. 
