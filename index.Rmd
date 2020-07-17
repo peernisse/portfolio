@@ -30,7 +30,7 @@ I am a supervising environmental scientist and project manager in the Stantec Sa
 </ul>
 </div>
 <div class="column">
-<li>Technical Writing</li>
+<li>Technical Writing and Presentations</li>
 <li>Data Visualizations for Reports</li>
 <li>Automated Reporting with R Markdown to Word/HTML</li>
 <li>ESRI ArcGIS</li>
@@ -63,9 +63,9 @@ Peter EerNisse and David J. Ruppert. 2000. Sawtooth Wilderness Inventory and Mon
 
 Whitney E. Hable, Peter EerNisse, Michael Hoggan, and Darryl L Kropf. 2001. Effect of calcium ionophores on early development in fucoid algae. Phycological Research 49: 145-154.
 
-EerNisse, P.A., Oliver, D.S., Steinmacher, S.J., Miller, J.P., Hall, B.L., Case, J.D. 2008. Relationships Between Indoor Air Contaminant Concentrations and Site and Climatic Conditions; The Ninth Air and Waste Management Association’s 101st Annual Conference & Exhibition, Portland, OR. June 24 - 27, 2008.
+EerNisse, P.A., Oliver, D.S., Steinmacher, S.J., Miller, J.P., Hall, B.L., Case, J.D. 2008. Relationships Between Indoor Air Contaminant Concentrations and Site and Climatic Conditions; The Ninth Air and Waste Management Association's 101st Annual Conference & Exhibition, Portland, OR. June 24 - 27, 2008.
 
-EerNisse, P.A., Steinmacher, S.J., Mehraban, T., Case, J.D and Rita Hanover. 2009. Vapor Intrusion Mitigation System Efficacy in Residential Communities Surrounding Hill Air Force Base, Utah. The Air and Waste Management Association’s Specialty Conference on Vapor Intrusion, San Diego, CA. January 27 - 30, 2009.
+EerNisse, P.A., Steinmacher, S.J., Mehraban, T., Case, J.D and Rita Hanover. 2009. Vapor Intrusion Mitigation System Efficacy in Residential Communities Surrounding Hill Air Force Base, Utah. The Air and Waste Management Association's Specialty Conference on Vapor Intrusion, San Diego, CA. January 27 - 30, 2009.
 
 EerNisse, Peter A. 2015. Multiple Lines of Evidence Methods to Investigate Groundwater-Surface Water Interaction. Geological Society of Nevada, Elko. October 15, 2015.
 
