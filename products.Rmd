@@ -22,11 +22,14 @@ options(scipen = 6)
 
 ```
 
-<hr/>
+
 Below are some examples of the tools I use on projects for data analysis, visualization, and making repetitive or tedious tasks more efficient.
 
 
 # Web Applications with Shiny
+
+<img src='./img/shiny.jpg'></img>
+
 Try my R Shiny App for exploring environmental datasets. Follow the link, hit the "Load Demo Data" button, pick a few locations and analytes from the left side, and explore the demo data.
 
 [My Demo Data Explorer App](https://peernisse.shinyapps.io/wqdashboard/)
