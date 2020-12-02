@@ -9,10 +9,10 @@
   
   </div>
 </div>
-Hello! This is a resume and portfolio website I maintain to show some of my project experience, products, and skills. 
+Hello! This is a resume and portfolio website I maintain to show some of my project experience, data products, and skills. 
 
 ### Summary
-I am a supervising environmental scientist and project manager in the Stantec Salt Lake City, Utah office with 19 years of experience in environmental investigation and assessment, RCRA, CERCLA, project management, long-term monitoring, environmental database design and management, statistical data analysis, geographic information systems (GIS), and data science. I am accomplished in implementing and managing programs for baseline characterization, detection monitoring, compliance monitoring, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species. 
+I am a supervising environmental scientist and project manager in the Stantec Salt Lake City, Utah office with 19 years of experience in environmental investigation and assessment, RCRA, CERCLA, project management, long-term monitoring, environmental database design and management, statistical data analysis, geographic information systems (GIS), and data science. I am accomplished in implementing and managing programs for baseline characterization, detection monitoring, compliance monitoring, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species. Most recently (2014-present), I am a self-taught data scientist and programmer in the R statistical computing language and environment.
 
 ### Skills Summary
 <div class="row">
