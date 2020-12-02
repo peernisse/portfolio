@@ -1,0 +1,49 @@
+---
+
+---
+
+# Employment History
+
+<hr/>
+
+## Stantec (formerly MWH Americas, Inc.), Salt Lake City, Utah
+
+<p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Associate - Environmental Scientist (2005 - present)</p>
+
+In this role I have served in technical and managerial capacity completing environmental projects for federal agencies and private industry. Duties have included:
+
+* Client Service Manager
+* Project Manager
+* Supervisor
+* Project Scientist/Analyst
+
+  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Technical Leader - Environmental Services Data Analysis and Statistics, United States (2016-present)</p>
+  
+In this role I have served to promote consistent data management and analysis practices within my company, and served as a proponent of repeatable and transparent analysis practices, including training colleagues and producing data products with R Shiny and R Markdown, among other platforms.
+
+* Technical Lead -  Data Analysis and Statistics
+  
+<hr/>
+  
+## Applied Biosciences, Salt Lake City, Utah
+  
+  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Research Scientist/Field Technician (2003-2005)</p>
+  
+I served as microbiologist and bench-scale research scientist, as well as field technician to design and construct full scale bioreactors for the treatment of arsenic and selenium in mining wastewaters.
+ 
+<hr/> 
+  
+## USDA Forest Service, Stanley, Idaho
+  
+  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Field Scientist/Developer, Sawtooth Wilderness Inventory and Monitoring Program (2000-2002)</p>
+
+Along with another biologist, I developed and implemented a multi-disciplinary inventory and monitoring system for the Sawtooth Wilderness in Idaho, USA. The program included surveys and data management system development to support long-term monitoring of endangered species, user impacts, water quality and vegetation conditions within the Sawtooth Wilderness, a program that is still going strong today.
+  
+  
+  
+  
+  
+
+
+
+

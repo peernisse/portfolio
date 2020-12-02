@@ -26,6 +26,13 @@ options(scipen = 6)
 Below are some examples of the tools I use on projects for data analysis, visualization, and making repetitive or tedious tasks more efficient.
 
 
+# Web Applications with Shiny
+Try my R Shiny App for exploring environmental datasets. Follow the link, hit the "Load Demo Data" button, pick a few locations and analytes from the left side, and explore the demo data.
+
+[My Demo Data Explorer App](https://peernisse.shinyapps.io/wqdashboard/)
+<hr/>
+
+
 # Data Tables
 Automate report results tables and formatting.
 <div class="row">
@@ -215,11 +222,6 @@ It is also possible to integrate PowerBI reports and dashboards into SharePoint 
 
 <img src="./img/dash.jpg"></img>
 
-# Web Applications with Shiny
-Try my, still in progress, R Shiny App for exploring datasets. Follow the link, hit the "Load Demo Data" button, pick a few locations and analytes from the left side, and explore the demo data.
-
-[My Demo Data Explorer App](https://peernisse.shinyapps.io/wqdashboard/)
-<hr/>
 
 
 

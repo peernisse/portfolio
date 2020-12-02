@@ -5,6 +5,9 @@ navbar:
   left:
     - text: "About Me"
       href: index.html
+      
+    - text: "Employment History"
+      href: employment.html
     
     - text: "Projects"
       href: projects.html
