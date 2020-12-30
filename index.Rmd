@@ -12,31 +12,37 @@
 Hello! This is a resume and portfolio website I maintain to show some of my project experience, data products, and skills. 
 
 ### Summary
-I am a supervising environmental scientist and project manager in the Stantec Salt Lake City, Utah office with 19 years of experience in environmental investigation and assessment, RCRA, CERCLA, project management, long-term monitoring, environmental database design and management, statistical data analysis, geographic information systems (GIS), and data science. I am accomplished in implementing and managing programs for baseline characterization, detection monitoring, compliance monitoring, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species. Most recently (2014-present), I am a self-taught data scientist and programmer in the R statistical computing language and environment.
+I am a supervising environmental scientist and project manager in the Stantec Salt Lake City, Utah office with 20 years of experience in environmental investigation and assessment, RCRA, CERCLA, project management, long-term monitoring, environmental database design and management, statistical data analysis, geographic information systems (GIS), and data science. I am accomplished in implementing and managing programs for baseline characterization, detection monitoring, compliance monitoring, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment.
 
 ### Skills Summary
 <div class="row">
 <div class="column">
 <ul>
 <li>Statistical Analysis of Environmental Data (Exploratory/descriptive analyses, outlier treatment, non-detect values treatment,linear and multi-variable regression models, non-parametric statistical methods, power analysis)</li>
+<li>Project Management/PMI Methods</li>
 <li>Groundwater Detection and Compliance Monitoring under EPA 2009 Unified Guidance for RCRA Facilities</li>
+<li>R Programming for data wrangling, statistical analysis, visualizations and modeling</li>
+<li>R Shiny Web Application Development</li>
+<li>Automated Reporting with R Markdown to Word/HTML</li>
+<li>Version control with Git/GitHub/AzureDevOps</li>
 <li>Database Design and Management (Oracle SQL, SQL Server, MS Access)</li>
-<li>Data Organization/Cleanup</li>
+
 <li>Project Study Design and Project Data Flow Consulting</li>
-<li>MS Office Products Access, Excel/PowerPivot/PowerQuery, Word, PowerPoint, VBA Programming</li>
-<li>MS SharePoint 2010, 2013, 2016, SP Online</li>
-<li>MS SharePoint Designer 2010, 2013</li>
+
 
 </ul>
 </div>
 <div class="column">
 <li>Technical Writing and Presentations</li>
 <li>Data Visualizations for Reports</li>
-<li>Automated Reporting with R Markdown to Word/HTML</li>
+
 <li>ESRI ArcGIS</li>
-<li>R Shiny Web Application Development</li>
+
 <li>MS Power BI Reports/Dashboards</li>
 <li>Websites/SharePoint (HTML, CSS)</li>
+<li>MS Office Products Access, Excel/PowerPivot/PowerQuery, Word, PowerPoint, VBA Programming</li>
+<li>MS SharePoint 2010, 2013, 2016, SP Online</li>
+<li>MS SharePoint Designer 2010, 2013</li>
 
 </div>
 </div>
