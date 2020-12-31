@@ -18,6 +18,7 @@ library(plotly)
 library(kableExtra)
 library(leaflet)
 library(data.table)
+library(rmarkdown)
 options(scipen = 6)
 
 ```
@@ -28,11 +29,13 @@ Below are some examples of the tools I use on projects for data analysis, visual
 
 # Web Applications with Shiny
 
-<img src='./img/shiny.jpg'></img>
+[![Water Quality App](./img/shiny.jpg)](https://peernisse.shinyapps.io/wqdashboard/){target="_blank"}
 
 Try my R Shiny App for exploring environmental datasets. Follow the link, hit the "Load Demo Data" button, pick a few locations and analytes from the left side, and explore the demo data.
 
-[My Demo Data Explorer App](https://peernisse.shinyapps.io/wqdashboard/)
+Try my R Shiny app...
+
+[My Demo Data Explorer App](https://peernisse.shinyapps.io/wqdashboard/){target="_blank"}
 <hr/>
 
 

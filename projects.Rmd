@@ -43,17 +43,31 @@ Implemented and managed CERCLA pre-reclamation and remedial action-phase samplin
 Managed Oracle SQL relational project database for field data acquisition, laboratory analytical results, GPS acquired data, QA/QC, and reporting tools for a large CERCLA cleanup project involving 16 abandoned uranium mines. Programmed and maintained project-specific GPS units for field data acquisition. Performed statistical analysis and visualizations for project data using EPA software ProUCL and R programming applications to automate reporting.  
 
 <hr/>
-# Non-Mining CERCLA Data Analysis
+# Non-Mining CERCLA/RCRA Data Analysis
 
 **Data Analyst, CERCLA Groundwater Long Term Monitoring, Confidential Client, Utah**
 
 Performed database/data management and semi-annual statistical analysis of chlorinated solvent plumes undergoing monitored natural attenuation (MNA). Statistical methods used in accordance with the EPA Unified Guidance include outlier testing, data distribution tests, trend testing, seasonal effects, control charts, confidence intervals, upper limits, hypothesis testing and reporting in support of MNA.
+
+**Data Analyst, RCRA Groundwater Statistical Analyses, Confidential Client, Tennessee, 2019-Present**
+
+Implemented automated statistical analysis of seven coal burning power plant sites for investigation and monitoring of coal combustion residual impacts to groundwater and surface water. The analyses were performed under EPA Unified Guidance and in response to the 2015 CCR rule regarding subsection D of RCRA. Automated analyses and outputs, performed with RMarkdown, included statistical data summaries, outlier identification, non-detect treatment, non-parametric trend testing, and comparison to water quality guidelines to identify statistically significant increases and exceedances.
+
 
 **Project Manager/Scientist, CERCLA Groundwater Contaminant Plumes, Utah, 2005-2012** 
 
 Authored and implemented EPA Performance Standards Verification Plans (PSVPs) for seven CERCLA Superfund Operable Units with soil and groundwater contaminated with chlorinated solvents.  His duties included project management, human health risk evaluation, remedial investigation, CERCLA documents, implementing/performing subsurface field studies, statistical analyses of contaminant data, technical presentations, and reporting.
 
 <hr/>
+
+# Inernal Roles and Development
+
+**Stantec Environmental Services Technical Lead in Data Analysis and Statistics for the USA, 2016-Present**
+
+Served in a formal role as a proponent and mentor to promote consistency and transparency in project data management and analysis practices within my company. Duties included development of our team SharePoint site and custom tools for colleagues to find specialists, for us to track analysis work requests, and as a central code library for use by analysts within the company (R, Python, VBA, HTML, etc.). Additionally created and taught a once per month tutorial curriculum for interested colleagues to learn the R programming language to increase efficiency in their work.
+
+<hr/>
+
 # Project Management
 
 **Project Manager - Utah Army National Guard, Environmental Resources Management (ERM) (2008-Present)**
@@ -63,8 +77,6 @@ Implemented and maintain an ERM program-wide GIS and program data management sol
 **Project Manager/Scientist, Operable Unit 4 Groundwater Remediation, Hill Air Force Base, Utah**
 
 Conducted data management and interpretation of environmental groundwater, soil, and soil gas data in support of ongoing investigation/ characterization of TCE-contaminated soil and groundwater. Tasks included groundwater monitoring well installation, data management, groundwater treatment system performance monitoring, long-term performance monitoring, presentations and technical reports.
-
-
 
 
 
