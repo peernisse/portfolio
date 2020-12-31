@@ -2,17 +2,17 @@
 title: "Example Data Products"
 output: 
         html_document:
-          #code_folding: show
+          code_folding: hide
           toc: true
           toc_float: 
-                collapsed: false
+                collapsed: true
                 smooth_scroll: true
                 toc_depth: 1
           number_sections: false
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE,warning = FALSE,error = F,message = F)
+knitr::opts_chunk$set(echo = TRUE,warning = FALSE,error = F,message = F)
 library(tidyverse)
 library(plotly)
 library(kableExtra)
@@ -40,7 +40,7 @@ Try my R Shiny app...
 
 
 # Data Tables
-Automate report results tables and formatting.
+Automate report results tables and formatting output to Excel.
 <div class="row">
 <div class="column">
 <img src='./img/tbl1.jpg'></img>
@@ -48,6 +48,14 @@ Automate report results tables and formatting.
 <div class="column"></div>
 <img src='./img/tbl2.jpg'></img>
 </div>
+
+Automate RMarkdown HTML documents with embedded tables.
+<div class="row">
+<div class="column"></div>
+<img src='./img/heat.jpg'></img>
+</div>
+
+
 
 #Data-Linked Excel Tools
 Most of us use Excel extensively. Modern Excel has lots of data source options such as Access databases, SQL Server, SharePoint lists, Oracle databases...
@@ -149,6 +157,52 @@ ggplotly(g,width=800,height=500) %>%
 ```
 
 *Data Source: *https://github.com/CSSEGISandData/COVID-19
+
+<br/>
+
+### A Basic Interactive Map using Leaflet JS via the R package `leaflet`
+
+This is a very basic map, lots of interctive customization is possible with points, lines, and polygons, and the underlying attribute data. Maps can be embedded in HTML documents/presentations, websites, and PowerPoint presentations.
+
+```{r map}
+#Import data
+maplocs<-read.csv('./data/maplocs.csv') %>% 
+  unique(.)
+
+
+#Render leaflet map
+    m <- leaflet() %>% 
+      addTiles(group="Roads") %>% 
+      addProviderTiles('Esri.WorldImagery',group="Satellite") %>% 
+      #addProviderTiles("CartoDB.PositronOnlyLabels") %>% 
+      #setView(mCenter[2], mCenter[1],zoom = 1) %>% 
+      #setMaxBounds(mBounds[2],mBounds[4],mBounds[1],mBounds[3]) %>% 
+      addCircles(data=maplocs,lng = ~LONGITUDE,lat = ~LATITUDE,label = ~Location, labelOptions = c(permanent = TRUE),
+                       radius = 8, group = "Locations",stroke = FALSE,fillOpacity = 0.8,  fillColor='#ed7000') %>%  
+      addScaleBar(position='bottomright') %>% 
+      addMeasure(
+        position = "topright",
+        primaryLengthUnit = "feet",
+        primaryAreaUnit = "acres",
+        activeColor = "#3D535D",
+        completedColor = "#7D4479",
+        localization = "en"
+      ) %>% #add measure
+      addLayersControl(
+        baseGroups = c("Satellite","Roads"),
+        overlayGroups = c("Locations"),
+        options = layersControlOptions(collapsed = FALSE)
+      )
+    
+    
+    m
+
+
+
+
+
+```
+
 
 ### An Interactive 3D Plot
 
