@@ -1,14 +1,19 @@
 ---
+title: "index.html"
 ---
+<style>.author,.title{
+    display: none;
+}</style>
 <div class="row">
   <div class="column"><img src='./img/peter.jpg'></img></div>
-  <div class="column">
-  <h2 style="padding:0px; color:#ed7000;">Peter A. EerNisse, PMP</h2>
-  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Associate - Environmental Scientist</p>
-  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Technical Leader - Environmental Services Data Analysis and Statistics, United States</p>
+  <div class="column" style="padding-top:20px;">
+# Peter A. EerNisse, PMP
+  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Environmental Data Analyst/Scientist</p>
+  
   
   </div>
 </div>
+
 
 
 ### Summary

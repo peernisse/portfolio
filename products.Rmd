@@ -57,7 +57,8 @@ Automate RMarkdown HTML documents with embedded tables.
 
 
 
-#Data-Linked Excel Tools
+# Data-Linked Excel Tools
+
 Most of us use Excel extensively. Modern Excel has lots of data source options such as Access databases, SQL Server, SharePoint lists, Oracle databases...
 
 This makes it convenient to build analysis dashboards and tools right in Excel, with the data linked from a project database or other source.
