@@ -62,7 +62,7 @@ Authored and implemented EPA Performance Standards Verification Plans (PSVPs) fo
 
 # Inernal Roles and Development
 
-**Stantec Environmental Services Technical Lead in Data Analysis and Statistics for the USA, 2016-Present**
+**Stantec Environmental Services Technical Lead in Data Analysis and Statistics for the USA, 2016-2021**
 
 Served in a formal role as a proponent and mentor to promote consistency and transparency in project data management and analysis practices within my company. Duties included development of our team SharePoint site and custom tools for colleagues to find specialists, for us to track analysis work requests, and as a central code library for use by analysts within the company (R, Python, VBA, HTML, etc.). Additionally created and taught a once per month tutorial curriculum for interested colleagues to learn the R programming language to increase efficiency in their work.
 
@@ -70,7 +70,7 @@ Served in a formal role as a proponent and mentor to promote consistency and tra
 
 # Project Management
 
-**Project Manager - Utah Army National Guard, Environmental Resources Management (ERM) (2008-Present)**
+**Project Manager - Utah Army National Guard, Environmental Resources Management (ERM) (2008-2021)**
 
 Implemented and maintain an ERM program-wide GIS and program data management solution based in MS SharePoint. The tool supports Utah Army National Guard environmental programs, asset management, drinking water protection, and environmental operations.
 

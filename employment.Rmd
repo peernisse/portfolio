@@ -8,20 +8,21 @@
 
 ## Stantec (formerly MWH Americas, Inc.), Salt Lake City, Utah
 
-<p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Associate - Environmental Scientist (2005 - present)</p>
+<p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Associate - Environmental Scientist (2005 - 2021)</p>
 
 In this role I have served in technical and managerial capacity completing environmental projects for federal agencies and private industry. Duties have included:
 
-* Client Service Manager
-* Project Manager
-* Supervisor
 * Project Scientist/Analyst
+* Supervisor
+* Project Manager
+* Client Service Manager
 
-  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Technical Leader - Environmental Services Data Analysis and Statistics, United States (2016-present)</p>
+
+  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Technical Leader - Environmental Services Data Analysis and Statistics, United States (2016-2021)</p>
   
 In this role I have served to promote consistent data management and analysis practices within my company, and served as a proponent of repeatable and transparent analysis practices, including training colleagues and producing data products with R Shiny and R Markdown, among other platforms.
 
-* Technical Lead -  Data Analysis and Statistics
+* Technical Lead - Data Analysis and Statistics
   
 <hr/>
   
