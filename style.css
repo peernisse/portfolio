@@ -75,4 +75,17 @@ li{
   padding:5px;
 }
 
+.navbar-brand {
+  padding-top:25px;
+}
+
+
+hr {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: rgb(236, 240, 241);
+}
+
+
+
 

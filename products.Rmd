@@ -23,6 +23,7 @@ options(scipen = 6)
 
 ```
 
+# Data Products
 
 Below are some examples of the tools I use on projects for data analysis, visualization, and making repetitive or tedious tasks more efficient.
 

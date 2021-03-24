@@ -17,20 +17,23 @@ title: "index.html"
 
 
 ### Summary
-I am a supervising environmental scientist and project manager in Salt Lake City, Utah with 21 years of experience in environmental investigation and assessment, RCRA, CERCLA, project management, long-term monitoring, environmental database design and management, statistical data analysis, geographic information systems (GIS), and data science. I am accomplished in implementing and managing programs for baseline characterization, detection monitoring, compliance monitoring, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment.
+I am a managing environmental scientist and project manager in Salt Lake City, Utah with 21 years of experience completing start-to-finish environmental projects. I have worked in all project aspects from field work to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.
+
+Areas I have worked in include environmental investigation and assessment, RCRA, CERCLA, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species.
 
 ### Skills Summary
 <div class="row">
 <div class="column">
 <ul>
-<li>Statistical Analysis of Environmental Data (Exploratory/descriptive analyses, outlier treatment, non-detect values treatment,linear and multi-variable regression models, non-parametric statistical methods, power analysis)</li>
-<li>Project Management/PMI Methods</li>
-<li>Groundwater Detection and Compliance Monitoring under EPA 2009 Unified Guidance for RCRA Facilities</li>
 <li>R Programming for data wrangling, statistical analysis, visualizations and modeling</li>
 <li>R Shiny Web Application Development</li>
 <li>Automated Reporting with R Markdown to Word/HTML</li>
 <li>Version control with Git/GitHub/AzureDevOps</li>
 <li>Database Design and Management (Oracle SQL, SQL Server, MS Access)</li>
+<li>Statistical Analysis of Environmental Data (Exploratory/descriptive analyses, outlier treatment, non-detect values treatment,linear and multi-variable regression models, machine learning, non-parametric statistical methods, power analysis)</li>
+<li>Project Management/PMI Methods</li>
+<li>Groundwater Detection and Compliance Monitoring under EPA 2009 Unified Guidance for RCRA Facilities</li>
+
 
 <li>Project Study Design and Project Data Flow Consulting</li>
 
@@ -56,6 +59,9 @@ I am a supervising environmental scientist and project manager in Salt Lake City
 * 1999  	B.S. Biology, University of Utah
 
 ### Further Education
+
+* 2021 Introduction to TensorFlow in R. Datacamp.com (4 hours)
+
 * 2018-2020 Data Science Specialization. Johns Hopkins University Bloomberg School of Public Health. Coursera 'Specialization'.
 
 * 2015	Visualizing and Analyzing Environmental Data using R (16 hours)
