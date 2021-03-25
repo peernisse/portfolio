@@ -36,15 +36,15 @@ Completed and/or collaborated on custom project applications for data managment,
 
 ## Active Mining/Baseline Characterization
 
-**Data Analyst, Mine Expansion Baseline Characterization, Confidential Client, Manitoba, CA**
+**Data Analyst, Mine Expansion Baseline Characterization, Confidential Client, Manitoba, CA, 2018-2021**
 
 Automated water quality data compilation and cleanup, comparison of results to federal and provincial water quality guidelines, and various report visualizations including box plots, time series graphs, pie charts, histograms, etc.
 
-**Data Analyst, APP Quarterly Groundwater Monitoring, Confidential Client, Arizona**
+**Data Analyst, APP Quarterly Groundwater Monitoring, Confidential Client, Arizona, 2012-2019**
 
 Performs data organization, database management, statistical analysis, and reporting of quarterly groundwater monitoring data in support of permit requirements. Developed a relational database system for data storage, validation and generation of automated summary tables for quarterly reports. Performed statistical analyses in accordance with the EPA Unified Guidance and state requirements on monitoring results including tests of distribution, outlier testing, trend testing, seasonal effects, detection monitoring and exceedance testing for comparison to aquifer quality limits (AQLs) and alert levels (ALs) for APP compliance.
 
-**Task Manager/Scientist, Baseline Surface Water Characterization, Confidential Client, Fairbanks, Alaska**
+**Task Manager/Scientist, Baseline Surface Water Characterization, Confidential Client, Fairbanks, Alaska, 2012-2016**
 
 Implemented surface water and natural resources investigation for a proposed gold mine expansion in support of Alaska state surface water discharge permits. Duties included field work planning/SAPP/QAPP, health and safety, GIS mapping, erecting surface water monitoring stations, hydrology studies, water quality statistical analysis and development of monitoring action levels, and database development and maintenance.
 
@@ -56,7 +56,7 @@ Implemented surface water and natural resources investigation for a proposed gol
 
 Implemented and managed CERCLA pre-reclamation and remedial action-phase sampling and characterization program for groundwater quality, surface water quality, groundwater/surface water interface, and riparian conditions at a former copper mine site. Duties included project task management, implementing/performing field studies, GIS and relational database management, statistical data analysis and reporting.
 
-**Data Manager/Statistical Analyst, Abandoned Uranium Mines, Confidential Client, New Mexico**
+**Data Manager/Statistical Analyst, Abandoned Uranium Mines, Confidential Client, New Mexico, 2015-2017**
 
 Managed Oracle SQL relational project database for field data acquisition, laboratory analytical results, GPS acquired data, QA/QC, and reporting tools for a large CERCLA cleanup project involving 16 abandoned uranium mines. Programmed and maintained project-specific GPS units for field data acquisition. Performed statistical analysis and visualizations for project data using EPA software ProUCL and R programming applications to automate reporting.  
 
@@ -64,11 +64,11 @@ Managed Oracle SQL relational project database for field data acquisition, labor
 
 ## Non-Mining CERCLA/RCRA Data Analysis
 
-**Data Analyst, CERCLA Groundwater Long Term Monitoring, Confidential Client, Utah**
+**Data Analyst, CERCLA Groundwater Long Term Monitoring, Confidential Client, Utah, 2015-2021**
 
 Performed database/data management and semi-annual statistical analysis of chlorinated solvent plumes undergoing monitored natural attenuation (MNA). Statistical methods used in accordance with the EPA Unified Guidance include outlier testing, data distribution tests, trend testing, seasonal effects, control charts, confidence intervals, upper limits, hypothesis testing and reporting in support of MNA.
 
-**Data Analyst, RCRA Groundwater Statistical Analyses, Confidential Client, Tennessee, 2019-Present**
+**Data Analyst, RCRA Groundwater Statistical Analyses, Confidential Client, Tennessee, 2019-2021**
 
 Implemented automated statistical analysis of seven coal burning power plant sites for investigation and monitoring of coal combustion residual impacts to groundwater and surface water. The analyses were performed under EPA Unified Guidance and in response to the 2015 CCR rule regarding subsection D of RCRA. Automated analyses and outputs, performed with RMarkdown, included statistical data summaries, outlier identification, non-detect treatment, non-parametric trend testing, and comparison to water quality guidelines to identify statistically significant increases and exceedances.
 
@@ -83,11 +83,11 @@ Authored and implemented EPA Performance Standards Verification Plans (PSVPs) fo
 
 ## Project Management
 
-**Project Manager - Utah Army National Guard, Environmental Resources Management (ERM) (2008-2021)**
+**Project Manager - Utah Army National Guard, Environmental Resources Management (ERM), 2008-2021**
 
 Implemented and maintain an ERM program-wide GIS and program data management solution based in MS SharePoint. The tool supports Utah Army National Guard environmental programs, asset management, drinking water protection, and environmental operations.
 
-**Project Manager/Scientist, Operable Unit 4 Groundwater Remediation, Hill Air Force Base, Utah**
+**Project Manager/Scientist, Operable Unit 4 Groundwater Remediation, Hill Air Force Base, Utah, 2009-2012**
 
 Conducted data management and interpretation of environmental groundwater, soil, and soil gas data in support of ongoing investigation/ characterization of TCE-contaminated soil and groundwater. Tasks included groundwater monitoring well installation, data management, groundwater treatment system performance monitoring, long-term performance monitoring, presentations and technical reports.
 
