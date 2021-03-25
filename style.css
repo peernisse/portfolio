@@ -1,5 +1,5 @@
 
-
+/*
 .title{
   color: black;
 }
@@ -29,6 +29,8 @@ h3{
   font-size:16pt;
   font-weight: bold;
 }
+
+*/
 
 img {
   padding: 10px;
@@ -76,7 +78,7 @@ li{
 }
 
 .navbar-brand {
-  padding-top:25px;
+  padding-top:20px;
 }
 
 
@@ -86,6 +88,7 @@ hr {
   border-top-color: rgb(236, 240, 241);
 }
 
-
+.author,.title{
+    display: none;
 
 

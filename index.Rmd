@@ -1,23 +1,24 @@
 ---
 title: "index.html"
 ---
-<style>.author,.title{
-    display: none;
-}</style>
+
+
 <div class="row">
   <div class="column"><img src='./img/peter.jpg'></img></div>
   <div class="column" style="padding-top:20px;">
-# Peter A. EerNisse, PMP
-  <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Environmental Data Analyst/Scientist</p>
+
+<h1>Peter A. EerNisse, PMP</h1>
+
+  <h4 style="font-size:14px;font-weight: bold;color:black;padding:0px;">Environmental Data Analyst/Scientist</h4>
   
   
   </div>
 </div>
 
-
+<hr/>
 
 ### Summary
-I am a managing environmental scientist and project manager in Salt Lake City, Utah with 21 years of experience completing start-to-finish environmental projects. I have worked in all project aspects from field work to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.
+I am a managing environmental scientist and project manager in Salt Lake City, Utah with 21 years of experience completing start-to-finish environmental projects. I have worked in all project aspects from field work to scientific analysis and reporting, to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.
 
 Areas I have worked in include environmental investigation and assessment, RCRA, CERCLA, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species.
 
@@ -35,14 +36,12 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 <li>Groundwater Detection and Compliance Monitoring under EPA 2009 Unified Guidance for RCRA Facilities</li>
 
 
-<li>Project Study Design and Project Data Flow Consulting</li>
-
-
 </ul>
 </div>
 <div class="column">
+<li>Project Study Design and Project Data Flow Consulting</li>
 <li>Technical Writing and Presentations</li>
-<li>Data Visualizations for Reports</li>
+<li>Data Visualizations for Reports with `ggplot2` and `plotly`</li>
 
 <li>ESRI ArcGIS</li>
 
@@ -72,8 +71,6 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 
 ### Registrations and Certifications
 Project Management Professional (PMP) #1829161, Project Management Institute, 2015 - Present
-
-MSHA Metal/Non-Metal Surface Miners. Current 2020.
 
 ### Publications and Presentations
 Peter EerNisse and David J. Ruppert. 2000. Sawtooth Wilderness Inventory and Monitoring Project Manual. USDA Forest Service, Sawtooth National Recreation Area, Stanley, Idaho.

@@ -2,11 +2,7 @@
 title: "employment.html"
 ---
 
-<style>.author,.title{
-    display: none;
-}</style>
-
-# Employment History
+<h1 style="padding-top:10px;">Employment History</h1>
 
 <hr/>
 

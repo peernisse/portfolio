@@ -15,9 +15,26 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+
+
+<h1 style="padding-top:10px;">Select Projects</h1>
+
 <hr/>
 
-# Active Mining/Baseline Characterization
+## Inernal Roles and Development
+
+**Stantec Environmental Services Technical Lead in Data Analysis and Statistics for the USA, 2016-2021**
+
+Served in a formal role as a proponent and mentor to promote consistency and transparency in project data management and analysis practices within my company. Duties included development of our team SharePoint site and custom tools for colleagues to find specialists, for us to track analysis work requests, and as a central code library for use by analysts within the company (R, Python, VBA, HTML, etc.). Additionally created and taught a once per month tutorial curriculum for interested colleagues to learn the R programming language to increase efficiency in their work.
+
+**Application Development, Numerous Projects, 2010-2021**
+
+Completed and/or collaborated on custom project applications for data managment, data clean up, data query tools, analysis and visualization tools using combinations of MS Access, MS Excel, SharePoint Designer, R Markdown and R Shiny.
+
+<hr/>
+
+## Active Mining/Baseline Characterization
 
 **Data Analyst, Mine Expansion Baseline Characterization, Confidential Client, Manitoba, CA**
 
@@ -32,7 +49,8 @@ Performs data organization, database management, statistical analysis, and repor
 Implemented surface water and natural resources investigation for a proposed gold mine expansion in support of Alaska state surface water discharge permits. Duties included field work planning/SAPP/QAPP, health and safety, GIS mapping, erecting surface water monitoring stations, hydrology studies, water quality statistical analysis and development of monitoring action levels, and database development and maintenance.
 
 <hr/>
-# Mining Reclamation
+
+## Mining Reclamation
 
 **Data Manager/Scientist, CERCLA Remedial Baseline Water Quality Monitoring, Chelan, Washington, 2011-2015**
 
@@ -43,7 +61,8 @@ Implemented and managed CERCLA pre-reclamation and remedial action-phase samplin
 Managed Oracle SQL relational project database for field data acquisition, laboratory analytical results, GPS acquired data, QA/QC, and reporting tools for a large CERCLA cleanup project involving 16 abandoned uranium mines. Programmed and maintained project-specific GPS units for field data acquisition. Performed statistical analysis and visualizations for project data using EPA software ProUCL and R programming applications to automate reporting.  
 
 <hr/>
-# Non-Mining CERCLA/RCRA Data Analysis
+
+## Non-Mining CERCLA/RCRA Data Analysis
 
 **Data Analyst, CERCLA Groundwater Long Term Monitoring, Confidential Client, Utah**
 
@@ -60,15 +79,9 @@ Authored and implemented EPA Performance Standards Verification Plans (PSVPs) fo
 
 <hr/>
 
-# Inernal Roles and Development
 
-**Stantec Environmental Services Technical Lead in Data Analysis and Statistics for the USA, 2016-2021**
 
-Served in a formal role as a proponent and mentor to promote consistency and transparency in project data management and analysis practices within my company. Duties included development of our team SharePoint site and custom tools for colleagues to find specialists, for us to track analysis work requests, and as a central code library for use by analysts within the company (R, Python, VBA, HTML, etc.). Additionally created and taught a once per month tutorial curriculum for interested colleagues to learn the R programming language to increase efficiency in their work.
-
-<hr/>
-
-# Project Management
+## Project Management
 
 **Project Manager - Utah Army National Guard, Environmental Resources Management (ERM) (2008-2021)**
 
