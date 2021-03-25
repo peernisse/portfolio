@@ -42,6 +42,7 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 <li>Project Study Design and Project Data Flow Consulting</li>
 <li>Technical Writing and Presentations</li>
 <li>Data Visualizations for Reports with `ggplot2` and `plotly`</li>
+<li>Machine Learning in R with `caret` and `tensorflow`</li>
 
 <li>ESRI ArcGIS</li>
 
