@@ -42,7 +42,7 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 <li>Project Study Design and Project Data Flow Consulting</li>
 <li>Technical Writing and Presentations</li>
 <li>Data Visualizations for Reports with `ggplot2` and `plotly`</li>
-<li>Machine Learning in R with `caret` and `tensorflow`</li>
+<li>Machine Learning in R with `keras`/`tensorflow`, `caret` </li>
 
 <li>ESRI ArcGIS</li>
 
@@ -59,8 +59,6 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 * 1999  	B.S. Biology, University of Utah
 
 ### Further Education
-
-* 2021 Introduction to TensorFlow in R. Datacamp.com (4 hours)
 
 * 2018-2020 Data Science Specialization. Johns Hopkins University Bloomberg School of Public Health. Coursera 'Specialization'.
 
