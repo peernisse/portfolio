@@ -6,7 +6,7 @@ title: "employment.html"
 
 <hr/>
 
-## Stantec (formerly MWH Americas, Inc.), Salt Lake City, Utah
+## Stantec Consulting Inc. (formerly MWH Americas, Inc.), Salt Lake City, Utah
 
 <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Associate - Environmental Scientist (2005 - 2021)</p>
 
