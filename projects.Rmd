@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <hr/>
 
-## Inernal Roles and Development
+## Internal Roles and Development
 
 **Stantec Environmental Services Technical Lead in Data Analysis and Statistics for the USA, 2016-2021**
 

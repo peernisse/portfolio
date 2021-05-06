@@ -5,7 +5,7 @@ output:
           code_folding: hide
           toc: true
           toc_float: 
-                collapsed: true
+                collapsed: false
                 smooth_scroll: true
                 toc_depth: 3
           number_sections: false
