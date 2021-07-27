@@ -5,9 +5,9 @@ output:
           code_folding: hide
           toc: true
           toc_float: 
-                collapsed: true
+                collapsed: false
                 smooth_scroll: true
-                toc_depth: 1
+                toc_depth: 3
           number_sections: false
 ---
 
@@ -23,11 +23,11 @@ options(scipen = 6)
 
 ```
 
+<h1 style="padding-top:10px;">Data Products</h1>
 
-Below are some examples of the tools I use on projects for data analysis, visualization, and making repetitive or tedious tasks more efficient.
+<hr/>
 
-
-# Web Applications with Shiny
+## Web Applications with Shiny
 
 [![Water Quality App](./img/shiny.jpg)](https://peernisse.shinyapps.io/wqdashboard/){target="_blank"}
 
@@ -39,38 +39,7 @@ Try my R Shiny app...
 <hr/>
 
 
-# Data Tables
-Automate report results tables and formatting output to Excel.
-<div class="row">
-<div class="column">
-<img src='./img/tbl1.jpg'></img>
-</div>
-<div class="column"></div>
-<img src='./img/tbl2.jpg'></img>
-</div>
-
-Automate RMarkdown HTML documents with embedded tables.
-<div class="row">
-<div class="column"></div>
-<img src='./img/heat.jpg'></img>
-</div>
-
-
-
-#Data-Linked Excel Tools
-Most of us use Excel extensively. Modern Excel has lots of data source options such as Access databases, SQL Server, SharePoint lists, Oracle databases...
-
-This makes it convenient to build analysis dashboards and tools right in Excel, with the data linked from a project database or other source.
-
-### A simple Water Level Transducer Project with Access and Excel
-Data are maintained in Access with automated import of new monthly data files. 
-<img src='./img/trans1.jpg'></img>
-
-Data visualization and analysis features are built in Excel, always up to date with the linked Access database.
-<img src='./img/trans2.jpg'></img>
-
-
-# Visualizations
+## Visualizations
 Any common analytic visualizations can be created as images or PDF files, for insertion into a presentation, a document or to put in an appendix.
 
 Any kind of plots, too many to show. Histograms, scatter plots, bar charts, box plots, piper diagrams, stiff plots, heat maps, contour maps, bi plots, pies, control charts, radial charts, bubble....
@@ -83,11 +52,11 @@ df<-iris %>%
 
 ggplot(df,aes(Species,Value,fill=Species))+
   geom_jitter(alpha=.5)+
-  geom_violin(alpha=.5)+
+  geom_boxplot(alpha=.75)+
   facet_wrap(~Parameter)+
   theme(legend.position='bottom',legend.title=element_blank(),
-        strip.background = element_rect(fill='wheat'))+
-  labs(y="Dimension (cm)",title="Violin Density Plot, Sepal and Petal Morphology\nin Three Iris Species")
+        strip.background = element_rect(fill='gray69'))+
+  labs(y="Dimension (cm)",title="Box Plots, Sepal and Petal Morphology\nin Three Iris Species")
 
 ```
 
@@ -109,10 +78,12 @@ ggplot(df,aes(Species,Value,fill=Species))+
 
 
 <hr/>
-# Interactive Visualizations
+
+## Interactive Visualizations
 Interactive visualizations can be presented in PowerPoint, HTML files, or in HTML slide presentations, allowing the user or presenter to interact with the data in real time.
 
 ### An Interactive Time Series of COVID-19 Data in the US
+
 Hover the plot to activate the toolbar, filter the data by double-clicking in the legend to select a location,and using the Ctrl key + click to select multiple locations to compare.
 
 ```{r intplots}
@@ -162,7 +133,7 @@ ggplotly(g,width=800,height=500) %>%
 
 ### A Basic Interactive Map using Leaflet JS via the R package `leaflet`
 
-This is a very basic map, lots of interctive customization is possible with points, lines, and polygons, and the underlying attribute data. Maps can be embedded in HTML documents/presentations, websites, and PowerPoint presentations.
+This is a very basic map, lots of interactive customization is possible with points, lines, and polygons, and the underlying attribute data. Maps can be embedded in HTML documents/presentations, websites, and PowerPoint presentations.
 
 ```{r map}
 #Import data
@@ -180,19 +151,20 @@ maplocs<-read.csv('./data/maplocs.csv') %>%
       addCircles(data=maplocs,lng = ~LONGITUDE,lat = ~LATITUDE,label = ~Location, labelOptions = c(permanent = TRUE),
                        radius = 8, group = "Locations",stroke = FALSE,fillOpacity = 0.8,  fillColor='#ed7000') %>%  
       addScaleBar(position='bottomright') %>% 
-      addMeasure(
-        position = "topright",
-        primaryLengthUnit = "feet",
-        primaryAreaUnit = "acres",
-        activeColor = "#3D535D",
-        completedColor = "#7D4479",
-        localization = "en"
-      ) %>% #add measure
-      addLayersControl(
-        baseGroups = c("Satellite","Roads"),
-        overlayGroups = c("Locations"),
-        options = layersControlOptions(collapsed = FALSE)
-      )
+      # addMeasure(
+      #   position = "topright",
+      #   primaryLengthUnit = "feet",
+      #   primaryAreaUnit = "acres",
+      #   activeColor = "#3D535D",
+      #   completedColor = "#7D4479",
+      #   localization = "en"
+      #  ) %>% #add measure
+      
+       addLayersControl(
+         baseGroups = c("Satellite","Roads"),
+         overlayGroups = c("Locations"),
+         options = layersControlOptions(collapsed = FALSE)
+       )
     
     
     m
@@ -266,8 +238,46 @@ fig
 
 
 
+## Data Tables
+
+Automate report results tables and formatting output to Excel.
+
+<div class="row">
+<div class="column">
+<img src='./img/tbl1.jpg'></img>
+</div>
+<div class="column"></div>
+<img src='./img/tbl2.jpg'></img>
+</div>
+
+Automate RMarkdown HTML documents with embedded tables.
+
+<div class="row">
+<div class="column"></div>
+<img src='./img/heat.jpg'></img>
+</div>
+
+
+
+## Data-Linked Excel Tools
+
+Most of us use Excel extensively. Modern Excel has lots of data source options such as Access databases, SQL Server, SharePoint lists, Oracle databases...
+
+This makes it convenient to build analysis dashboards and tools right in Excel, with the data linked from a project database or other source.
+
+### A simple Water Level Transducer Project with Access and Excel
+
+Data are maintained in Access with automated import of new monthly data files. 
+<img src='./img/trans1.jpg'></img>
+
+Data visualization and analysis features are built in Excel, always up to date with the linked Access database.
+<img src='./img/trans2.jpg'></img>
+
+
 <hr/>
-# Automated Reporting
+
+## Automated Reporting
+
 Template reports, including boilerplate text, tables and graphs. The report is generated from a data source, so periodic reporting such as monthly reports are updated each month with the new data. Inline text and calculations also can be programmed to change with the data.
 
 Can be output to Word (static) or HTML (interactive) with formatting already applied.
@@ -275,13 +285,6 @@ Can be output to Word (static) or HTML (interactive) with formatting already app
 <img src="./img/doc1.jpg"></img>
 
 <hr/>
-
-# SharePoint Customization
-SharePoint O365 and Groups sites have great out of the box customization features.
-It is also possible to integrate PowerBI reports and dashboards into SharePoint sites.
-
-<img src="./img/dash.jpg"></img>
-
 
 
 

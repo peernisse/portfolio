@@ -15,10 +15,11 @@ navbar:
     - text: "Data Products"
       href: products.html
       
-      
+    - text: "References"
+      href: references.html
       
       
 output:
   html_document:
-    theme: flatly
+    theme: spacelab
     css: style.css

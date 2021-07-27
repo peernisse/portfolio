@@ -1,0 +1,87 @@
+---
+title: "references.html"
+---
+
+<style>.author,.title{
+    display: none;
+}</style>
+
+# References
+
+<hr/>
+<div class="row" style="margin-bottom:20px; margin-top:20px;">
+<div class="col-12" style="padding-left: 15px;">
+<h2>Matt Wagoner</h2>
+<h3>Geographical Leader, Digital Practice, Environmental Services, USA at Stantec</h3>
+<p>Matt was my director in the Digital Practice group within Environmental Services group at Stantec. He is very familiar with my passion for R programming for statistical analysis and R Shiny application development.</p>
+ 
+<a href="mailto:matt.wagoner@stantec.com">matt.wagoner@stantec.com</a>
+<div style="padding-top:5px;"><span>(502) 523-6232</span></div>
+</div>
+
+</div>
+
+<hr/>
+
+<div class="row" style="margin-bottom:20px;">
+<div class="col-12" style="padding-left: 15px;">
+<h2>Ken Moosman</h2>
+<h3>Senior Application Developer at Stantec</h3>
+<p>Ken has been my coding and data management systems mentor at Stantec for 16 years. We have worked together closely on many projects to ensure accurate and transparent data management, analysis methods, and to create custom applications to make project work more efficient.</p>
+
+<a href="mailto:kenneth.moosman@stantec.com">kenneth.moosman@stantec.com</a>
+<div style="padding-top:5px;"><span>(801) 617-3238</span></div>
+
+</div>
+</div>
+
+<hr/>
+
+<div class="row" style="margin-bottom:20px;">
+<div class="col-12" style="padding-left: 15px;">
+<h2>Phil Molloy, PhD</h2>
+<h3>Director of Data Analysis at TrichAnalytics Inc.</h3>
+<p>Phil was my director in the Data Analysis and Statistics group at Stantec. Phil is an expert programmer in the R language and we have collaborated on R coding data analyses, R Shiny application development, and R package development projects.</p>
+<a href="mailto:philip.p.molloy@gmail.com">philip.p.molloy@gmail.com</a>
+</div>
+</div>
+
+<hr/>
+
+<div class="row" style="margin-bottom:20px;">
+<div class="col-12" style="padding-left: 15px;">
+<h2>Kirsty Woods</h2>
+<h3>Principal Project Manager at Stantec</h3>
+<p>Kirsty has been project manager on two large projects on which I was statistical analyst. She is very familiar with my R programming acumen and quality of my data products such as R Markdown interactive documents and ggplot2 visualizations.</p>
+<a href="mailto:woodsey028@gmail.com">woodsey028@gmail.com</a>
+<div style="padding-top:5px;"><span>(720) 979-3740</span></div>
+
+</div>
+</div>
+
+<hr/>
+
+<div class="row" style="margin-bottom:20px;">
+<div class="col-12" style="padding-left: 15px;">
+<h2>Kelly Johnson, PhD</h2>
+<h3>Geochemist at WSP</h3>
+<p>Kelly and I have collaborated on several large projects. She is familiar with my study design, data analysis, and data management methods and experience.</p>
+<a href="mailto:kelly.johnson@wsp.com">kelly.johnson@wsp.com</a>
+<div style="padding-top:5px;"><span>(574) 276-7638</span></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
