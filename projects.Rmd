@@ -24,6 +24,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Internal Roles and Development
 
+**Utah Department of Health and Human Services COVID-19 Response, 2021 - Present**
+
+Manged instance of DOMO BI software for internal COVID-19 response dashboards. Developed R Shiny internal dashboards for the Population Health office COVID-19 response and population health dashboard system.
+
+**Utah Department of Health and Human Services Medical Examiner Application Development, 2021 - Present**
+
+Developed project charter, business case document, scope of work and RFP for medical examiner office case management software procurement. Managed this project in accordance with SAFe project management framework and principles. 
+
 **Stantec Environmental Services Technical Lead in Data Analysis and Statistics for the USA, 2016-2021**
 
 Served in a formal role as a proponent and mentor to promote consistency and transparency in project data management and analysis practices within my company. Duties included development of our team SharePoint site and custom tools for colleagues to find specialists, for us to track analysis work requests, and as a central code library for use by analysts within the company (R, Python, VBA, HTML, etc.). Additionally created and taught a once per month tutorial curriculum for interested colleagues to learn the R programming language to increase efficiency in their work.

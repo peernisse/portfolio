@@ -6,6 +6,18 @@ title: "employment.html"
 
 <hr/>
 
+## Utah Department of Health and Human Services, Salt Lake City, Utah
+
+<p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Senior Health Informaticist, Office of Informatics and Data Systems, (2021 - Present)</p>
+
+In this role I have served as R Shiny application developer, health informaticist, and project manager.
+
+* Developed and maintained internal dashboards for tracking and analyzing community health and epidemiology data in support of the State DHHS COVID-19 response. Platforms used include both R Shiny and DOMO. Focus on producing robust, production-grade R Shiny applications including code documentation and automated testing.
+
+* Other duties include working with MySQL and PostgreSQL databases via these dashboard applications as well as configuring Mirth as a health data transfer tool between databases and other data sources.
+
+* As project manager successfully initiated a current project to implement replacement/improvement of the case management application system for the Office of the Medical Examiner and Chief Medical Examiner. Shepherded OME staff through request for proposal process in search of software vendor, provider selection and project kickoff. Currently managing this project.
+
 ## Stantec Consulting Inc. (formerly MWH Americas, Inc.), Salt Lake City, Utah
 
 <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">Associate - Environmental Scientist (2005 - 2021)</p>

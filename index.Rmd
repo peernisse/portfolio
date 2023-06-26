@@ -18,9 +18,9 @@ title: "index.html"
 <hr/>
 
 ### Summary
-I am a managing environmental scientist and project manager in Salt Lake City, Utah with 21 years of experience completing start-to-finish environmental projects. I have worked in all project aspects from field work to scientific analysis and reporting, to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.
+I am a managing environmental scientist and project manager in Salt Lake City, Utah with 23 years of experience completing start-to-finish environmental projects. I have worked in all project aspects from field work to scientific analysis and reporting, to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.
 
-Areas I have worked in include environmental investigation and assessment, RCRA, CERCLA, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species.
+Areas I have worked in include public health data and informatics, environmental investigation and assessment, RCRA, CERCLA, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species.
 
 ### Skills Summary
 <div class="row">
@@ -28,11 +28,12 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 <ul>
 <li>R Programming for data wrangling, statistical analysis, visualizations and modeling</li>
 <li>R Shiny Web Application Development</li>
+<li>R Shiny Production Grade Applications with Golem and R Package Builder</li>
 <li>Automated Reporting with R Markdown to Word/HTML</li>
-<li>Machine Learning in R with `keras`/`tensorflow`, `caret` </li>
-<li>R Shiny Server Administration on Linux Ubuntu</li>
+<li>R Shiny Server Administration on AWS Linux</li>
+<li>Application Hosting with AWS (EC2, RDS, S3)</li>
 <li>Version control with Git/GitHub/AzureDevOps</li>
-<li>Database Design and Management (Oracle SQL, SQL Server, MS Access)</li>
+<li>Database Design and Management (Oracle SQL, SQL Server, MySQL, MS Access)</li>
 <li>Statistical Analysis of Environmental Data (Exploratory/descriptive analyses, outlier treatment, non-detect values treatment,linear and multi-variable regression models, machine learning, non-parametric statistical methods, power analysis)</li>
 
 
@@ -44,6 +45,7 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 <li>Project Study Design and Project Data Flow Consulting</li>
 <li>Technical Writing and Presentations</li>
 <li>Data Visualizations for Reports with `ggplot2` and `plotly`</li>
+<li>Machine Learning in R with `keras`/`tensorflow`, `caret` </li>
 <li>Project Management - PMI/Agile Methods</li>
 <li>Groundwater Detection and Compliance Monitoring under EPA 2009 Unified Guidance for RCRA Facilities</li>
 
@@ -72,7 +74,7 @@ Areas I have worked in include environmental investigation and assessment, RCRA,
 * 2007	The Groundwater Pollution and Hydrology Course - Princeton Groundwater, Inc. (24 hours)
 
 ### Registrations and Certifications
-Project Management Professional (PMP) #1829161, Project Management Institute, 2015 - Present
+Project Management Professional (PMP) #1829161, Project Management Institute, 2015 - 2022
 
 ### Publications and Presentations
 Peter EerNisse and David J. Ruppert. 2000. Sawtooth Wilderness Inventory and Monitoring Project Manual. USDA Forest Service, Sawtooth National Recreation Area, Stanley, Idaho.
