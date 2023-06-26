@@ -18,7 +18,7 @@ title: "index.html"
 <hr/>
 
 ### Summary
-I am a managing environmental scientist and project manager in Salt Lake City, Utah with 23 years of experience completing start-to-finish environmental projects. I have worked in all project aspects from field work to scientific analysis and reporting, to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.
+I am a managing-level scientist and project manager in Salt Lake City, Utah with 23 years of experience completing start-to-finish environmental and public health projects. I have worked in all project aspects from field work to scientific analysis and reporting, to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.
 
 Areas I have worked in include public health data and informatics, environmental investigation and assessment, RCRA, CERCLA, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species.
 
