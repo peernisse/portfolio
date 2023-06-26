@@ -13,8 +13,8 @@
 
 <title>employment.html</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -278,12 +279,46 @@ $(document).ready(function () {
 Employment History
 </h1>
 <hr/>
-<div id="stantec-consulting-inc.-formerly-mwh-americas-inc.-salt-lake-city-utah" class="section level2">
-<h2>Stantec Consulting Inc. (formerly MWH Americas, Inc.), Salt Lake City, Utah</h2>
+<div
+id="utah-department-of-health-and-human-services-salt-lake-city-utah"
+class="section level2">
+<h2>Utah Department of Health and Human Services, Salt Lake City,
+Utah</h2>
+<p style="font-size:14px;font-weight: bold;color:black;padding:0px;">
+Senior Health Informaticist, Office of Informatics and Data Systems,
+(2021 - Present)
+</p>
+<p>In this role I have served as R Shiny application developer, health
+informaticist, and project manager.</p>
+<ul>
+<li><p>Developed and maintained internal dashboards for tracking and
+analyzing community health and epidemiology data in support of the State
+DHHS COVID-19 response. Platforms used include both R Shiny and DOMO.
+Focus on producing robust, production-grade R Shiny applications
+including code documentation and automated testing.</p></li>
+<li><p>Other duties include working with MySQL and PostgreSQL databases
+via these dashboard applications as well as configuring Mirth as a
+health data transfer tool between databases and other data
+sources.</p></li>
+<li><p>As project manager successfully initiated a current project to
+implement replacement/improvement of the case management application
+system for the Office of the Medical Examiner and Chief Medical
+Examiner. Shepherded OME staff through request for proposal process in
+search of software vendor, provider selection and project kickoff.
+Currently managing this project.</p></li>
+</ul>
+</div>
+<div
+id="stantec-consulting-inc.-formerly-mwh-americas-inc.-salt-lake-city-utah"
+class="section level2">
+<h2>Stantec Consulting Inc. (formerly MWH Americas, Inc.), Salt Lake
+City, Utah</h2>
 <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">
 Associate - Environmental Scientist (2005 - 2021)
 </p>
-<p>In this role I have served in technical and managerial capacity completing environmental projects for federal agencies and private industry. Duties have included:</p>
+<p>In this role I have served in technical and managerial capacity
+completing environmental projects for federal agencies and private
+industry. Duties have included:</p>
 <ul>
 <li>Project Scientist/Analyst</li>
 <li>Supervisor</li>
@@ -291,29 +326,44 @@ Associate - Environmental Scientist (2005 - 2021)
 <li>Client Service Manager</li>
 </ul>
 <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">
-Technical Leader - Environmental Services Data Analysis and Statistics, United States (2016-2021)
+Technical Leader - Environmental Services Data Analysis and Statistics,
+United States (2016-2021)
 </p>
-<p>In this role I have served to promote consistent data management and analysis practices within my company, and served as a proponent of repeatable and transparent analysis practices, including training colleagues and producing data products with R Shiny and R Markdown, among other platforms.</p>
+<p>In this role I have served to promote consistent data management and
+analysis practices within my company, and served as a proponent of
+repeatable and transparent analysis practices, including training
+colleagues and producing data products with R Shiny and R Markdown,
+among other platforms.</p>
 <ul>
 <li><p>Technical Lead - Data Analysis and Statistics</p></li>
 <li><p>Technical Lead - Digital Practice</p></li>
 </ul>
 <hr/>
 </div>
-<div id="applied-biosciences-salt-lake-city-utah" class="section level2">
+<div id="applied-biosciences-salt-lake-city-utah"
+class="section level2">
 <h2>Applied Biosciences, Salt Lake City, Utah</h2>
 <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">
 Research Scientist/Field Technician (2003-2005)
 </p>
-<p>I served as microbiologist and bench-scale research scientist, as well as field technician to design and construct full scale bioreactors for the treatment of arsenic and selenium in mining wastewaters.</p>
+<p>I served as microbiologist and bench-scale research scientist, as
+well as field technician to design and construct full scale bioreactors
+for the treatment of arsenic and selenium in mining wastewaters.</p>
 <hr/>
 </div>
 <div id="usda-forest-service-stanley-idaho" class="section level2">
 <h2>USDA Forest Service, Stanley, Idaho</h2>
 <p style="font-size:14px;font-weight: bold;color:black;padding:0px;">
-Field Scientist/Developer, Sawtooth Wilderness Inventory and Monitoring Program (2000-2002)
+Field Scientist/Developer, Sawtooth Wilderness Inventory and Monitoring
+Program (2000-2002)
 </p>
-<p>Along with another biologist, I developed and implemented a multi-disciplinary inventory and monitoring system for the Sawtooth Wilderness in Idaho, USA. The program included surveys and data management system development to support long-term monitoring of endangered species, user impacts, water quality and vegetation conditions within the Sawtooth Wilderness, a program that is still going strong today.</p>
+<p>Along with another biologist, I developed and implemented a
+multi-disciplinary inventory and monitoring system for the Sawtooth
+Wilderness in Idaho, USA. The program included surveys and data
+management system development to support long-term monitoring of
+endangered species, user impacts, water quality and vegetation
+conditions within the Sawtooth Wilderness, a program that is still going
+strong today.</p>
 </div>
 
 

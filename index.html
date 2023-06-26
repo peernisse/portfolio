@@ -13,8 +13,8 @@
 
 <title>index.html</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -290,8 +291,23 @@ Environmental Data Analyst/Scientist
 <hr/>
 <div id="summary" class="section level3">
 <h3>Summary</h3>
-<p>I am a managing environmental scientist and project manager in Salt Lake City, Utah with 21 years of experience completing start-to-finish environmental projects. I have worked in all project aspects from field work to scientific analysis and reporting, to project management and new pursuits and proposals. Most recently (2014-present), I am a self-taught data science enthusiast and programmer in the R statistical computing language and environment. My other experience includes study design, relational database design and data management, statistical data analysis, geographic information systems (GIS), and project management.</p>
-<p>Areas I have worked in include environmental investigation and assessment, RCRA, CERCLA, long-term monitoring and remediation of soil, groundwater, and surface water in support of federal and commercial operations and closure phases. My natural resource background also includes inventories and monitoring of wetlands, riparian and aquatic habitat, watershed hydrology, amphibians, and threatened and endangered species.</p>
+<p>I am a managing environmental scientist and project manager in Salt
+Lake City, Utah with 23 years of experience completing start-to-finish
+environmental projects. I have worked in all project aspects from field
+work to scientific analysis and reporting, to project management and new
+pursuits and proposals. Most recently (2014-present), I am a self-taught
+data science enthusiast and programmer in the R statistical computing
+language and environment. My other experience includes study design,
+relational database design and data management, statistical data
+analysis, geographic information systems (GIS), and project
+management.</p>
+<p>Areas I have worked in include public health data and informatics,
+environmental investigation and assessment, RCRA, CERCLA, long-term
+monitoring and remediation of soil, groundwater, and surface water in
+support of federal and commercial operations and closure phases. My
+natural resource background also includes inventories and monitoring of
+wetlands, riparian and aquatic habitat, watershed hydrology, amphibians,
+and threatened and endangered species.</p>
 </div>
 <div id="skills-summary" class="section level3">
 <h3>Skills Summary</h3>
@@ -299,28 +315,36 @@ Environmental Data Analyst/Scientist
 <div class="column">
 <ul>
 <li>
-R Programming for data wrangling, statistical analysis, visualizations and modeling
+R Programming for data wrangling, statistical analysis, visualizations
+and modeling
 </li>
 <li>
 R Shiny Web Application Development
 </li>
 <li>
+R Shiny Production Grade Applications with Golem and R Package Builder
+</li>
+<li>
 Automated Reporting with R Markdown to Word/HTML
 </li>
 <li>
-Machine Learning in R with <code>keras</code>/<code>tensorflow</code>, <code>caret</code>
+R Shiny Server Administration on AWS Linux
 </li>
 <li>
-R Shiny Server Administration on Linux Ubuntu
+Application Hosting with AWS (EC2, RDS, S3)
 </li>
 <li>
 Version control with Git/GitHub/AzureDevOps
 </li>
 <li>
-Database Design and Management (Oracle SQL, SQL Server, MS Access)
+Database Design and Management (Oracle SQL, SQL Server, MySQL, MS
+Access)
 </li>
 <li>
-Statistical Analysis of Environmental Data (Exploratory/descriptive analyses, outlier treatment, non-detect values treatment,linear and multi-variable regression models, machine learning, non-parametric statistical methods, power analysis)
+Statistical Analysis of Environmental Data (Exploratory/descriptive
+analyses, outlier treatment, non-detect values treatment,linear and
+multi-variable regression models, machine learning, non-parametric
+statistical methods, power analysis)
 </li>
 </ul>
 </div>
@@ -332,13 +356,19 @@ Project Study Design and Project Data Flow Consulting
 Technical Writing and Presentations
 </li>
 <li>
-Data Visualizations for Reports with <code>ggplot2</code> and <code>plotly</code>
+Data Visualizations for Reports with <code>ggplot2</code> and
+<code>plotly</code>
+</li>
+<li>
+Machine Learning in R with <code>keras</code>/<code>tensorflow</code>,
+<code>caret</code>
 </li>
 <li>
 Project Management - PMI/Agile Methods
 </li>
 <li>
-Groundwater Detection and Compliance Monitoring under EPA 2009 Unified Guidance for RCRA Facilities
+Groundwater Detection and Compliance Monitoring under EPA 2009 Unified
+Guidance for RCRA Facilities
 </li>
 <li>
 ESRI ArcGIS
@@ -350,7 +380,8 @@ MS Power BI Reports/Dashboards
 Websites/SharePoint (HTML, CSS)
 </li>
 <li>
-MS Office Products Access, Excel/PowerPivot/PowerQuery, Word, PowerPoint, VBA Programming
+MS Office Products Access, Excel/PowerPivot/PowerQuery, Word,
+PowerPoint, VBA Programming
 </li>
 <li>
 MS SharePoint 2010, 2013, 2016, SP Online
@@ -370,23 +401,42 @@ MS SharePoint Designer 2010, 2013
 <div id="further-education" class="section level3">
 <h3>Further Education</h3>
 <ul>
-<li><p>2018-2020 Data Science Specialization. Johns Hopkins University Bloomberg School of Public Health. Coursera ‘Specialization’.</p></li>
-<li><p>2015 Visualizing and Analyzing Environmental Data using R (16 hours)</p></li>
-<li><p>2013 EPA Unified Guidance Statistical Analysis of Groundwater Data at RCRA Facilities (24 hours)</p></li>
-<li><p>2007 The Groundwater Pollution and Hydrology Course - Princeton Groundwater, Inc. (24 hours)</p></li>
+<li><p>2018-2020 Data Science Specialization. Johns Hopkins University
+Bloomberg School of Public Health. Coursera ‘Specialization’.</p></li>
+<li><p>2015 Visualizing and Analyzing Environmental Data using R (16
+hours)</p></li>
+<li><p>2013 EPA Unified Guidance Statistical Analysis of Groundwater
+Data at RCRA Facilities (24 hours)</p></li>
+<li><p>2007 The Groundwater Pollution and Hydrology Course - Princeton
+Groundwater, Inc. (24 hours)</p></li>
 </ul>
 </div>
 <div id="registrations-and-certifications" class="section level3">
 <h3>Registrations and Certifications</h3>
-<p>Project Management Professional (PMP) #1829161, Project Management Institute, 2015 - Present</p>
+<p>Project Management Professional (PMP) #1829161, Project Management
+Institute, 2015 - 2022</p>
 </div>
 <div id="publications-and-presentations" class="section level3">
 <h3>Publications and Presentations</h3>
-<p>Peter EerNisse and David J. Ruppert. 2000. Sawtooth Wilderness Inventory and Monitoring Project Manual. USDA Forest Service, Sawtooth National Recreation Area, Stanley, Idaho.</p>
-<p>Whitney E. Hable, Peter EerNisse, Michael Hoggan, and Darryl L Kropf. 2001. Effect of calcium ionophores on early development in fucoid algae. Phycological Research 49: 145-154.</p>
-<p>EerNisse, P.A., Oliver, D.S., Steinmacher, S.J., Miller, J.P., Hall, B.L., Case, J.D. 2008. Relationships Between Indoor Air Contaminant Concentrations and Site and Climatic Conditions; The Ninth Air and Waste Management Association’s 101st Annual Conference &amp; Exhibition, Portland, OR. June 24 - 27, 2008.</p>
-<p>EerNisse, P.A., Steinmacher, S.J., Mehraban, T., Case, J.D and Rita Hanover. 2009. Vapor Intrusion Mitigation System Efficacy in Residential Communities Surrounding Hill Air Force Base, Utah. The Air and Waste Management Association’s Specialty Conference on Vapor Intrusion, San Diego, CA. January 27 - 30, 2009.</p>
-<p>EerNisse, Peter A. 2015. Multiple Lines of Evidence Methods to Investigate Groundwater-Surface Water Interaction. Geological Society of Nevada, Elko. October 15, 2015.</p>
+<p>Peter EerNisse and David J. Ruppert. 2000. Sawtooth Wilderness
+Inventory and Monitoring Project Manual. USDA Forest Service, Sawtooth
+National Recreation Area, Stanley, Idaho.</p>
+<p>Whitney E. Hable, Peter EerNisse, Michael Hoggan, and Darryl L Kropf.
+2001. Effect of calcium ionophores on early development in fucoid algae.
+Phycological Research 49: 145-154.</p>
+<p>EerNisse, P.A., Oliver, D.S., Steinmacher, S.J., Miller, J.P., Hall,
+B.L., Case, J.D. 2008. Relationships Between Indoor Air Contaminant
+Concentrations and Site and Climatic Conditions; The Ninth Air and Waste
+Management Association’s 101st Annual Conference &amp; Exhibition,
+Portland, OR. June 24 - 27, 2008.</p>
+<p>EerNisse, P.A., Steinmacher, S.J., Mehraban, T., Case, J.D and Rita
+Hanover. 2009. Vapor Intrusion Mitigation System Efficacy in Residential
+Communities Surrounding Hill Air Force Base, Utah. The Air and Waste
+Management Association’s Specialty Conference on Vapor Intrusion, San
+Diego, CA. January 27 - 30, 2009.</p>
+<p>EerNisse, Peter A. 2015. Multiple Lines of Evidence Methods to
+Investigate Groundwater-Surface Water Interaction. Geological Society of
+Nevada, Elko. October 15, 2015.</p>
 </div>
 
 
